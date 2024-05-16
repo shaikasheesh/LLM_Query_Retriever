@@ -11,12 +11,8 @@ to make LLM comfortable with your SQL database, we need to give certain question
 
 to make this happen, we need the concept of EMbeddings, Vector databases, sentence similarity and custom prompt templates using few shot method
 
-# Output Screen Shot
-![image](https://github.com/shaikasheesh/LLM_Query_Retriever/assets/63601317/5b6e20d9-ca57-4f91-968a-100ca64b1ab9)
-
 in short, the question is converted to embeddings then it takes in similar vectors from the vector store and return the most similar query to query from SQL database and provides the answer
 
 # Consumption:
-
 built a streamlit powered UI to ask the question and retrive the answer
-
+![image](https://github.com/shaikasheesh/LLM_Query_Retriever/assets/63601317/5b6e20d9-ca57-4f91-968a-100ca64b1ab9)
